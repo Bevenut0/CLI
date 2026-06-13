@@ -19,8 +19,8 @@ class GenerateController {
         this._execpath(EGitName.REACT_TS, answers.folderName);
         break;
 
-        case EChoicesBoilerPlates.SCSS:
-          this._execpath(EGitName.SCSS, answers.folderName);
+        case EChoicesBoilerPlates.REACT:
+          this._execpath(EGitName.REACT, answers.folderName);
           break;
       }
     } catch (error) {

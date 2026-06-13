@@ -7,7 +7,7 @@ import { GenFile } from './controller/generate.controler';
 import inquirer from 'inquirer';
 import cfonts from 'cfonts';
 
-//Classe
+//Classe Inicio
 class Init {
   constructor() {
     inquirer.prompt(questions).then((answers : IAnswers) => {
